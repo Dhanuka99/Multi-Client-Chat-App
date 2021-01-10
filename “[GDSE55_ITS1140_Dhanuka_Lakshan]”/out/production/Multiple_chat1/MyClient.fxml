@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="393.0" style="-fx-background-color: #454952;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyClientController">
+   <children>
+      <Label layoutX="92.0" layoutY="40.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblid" layoutX="119.0" layoutY="14.0" prefHeight="25.0" prefWidth="229.0" text="......................." textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <TextArea fx:id="msgBox" layoutX="15.0" layoutY="94.0" prefHeight="212.0" prefWidth="359.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+      <JFXButton buttonType="RAISED" layoutX="267.0" layoutY="329.0" onAction="#btnSendOnAction" prefHeight="31.0" prefWidth="113.0" style="-fx-background-color: #056162;" text="send" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <TextField fx:id="txtSendText" layoutX="18.0" layoutY="329.0" prefHeight="31.0" prefWidth="229.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="58.0" fitWidth="80.0" layoutX="29.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="75.0" fitWidth="87.0" layoutX="15.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/f3e4c5ec-7766-4c8f-b5fc-b45094efee70.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

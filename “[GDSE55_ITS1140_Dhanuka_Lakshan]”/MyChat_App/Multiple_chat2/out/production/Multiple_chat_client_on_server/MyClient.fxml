@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyClientController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.45" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/gradienta-LeG68PrXA6Y-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="29.0" layoutY="42.0" text="Hello : ">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="40.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblid" layoutX="92.0" layoutY="41.0" text=".......................">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="420.0" layoutY="39.0" onAction="#btnSelectAll" prefHeight="31.0" prefWidth="149.0" style="-fx-background-color: #F0BDDA;" text="SelectAll">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <TextArea fx:id="msgBox" layoutX="29.0" layoutY="99.0" prefHeight="212.0" prefWidth="365.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+      <JFXButton buttonType="RAISED" layoutX="421.0" layoutY="329.0" onAction="#btnSendOnAction" prefHeight="31.0" prefWidth="149.0" style="-fx-background-color: #F0BDDA;" text="send">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <TextField fx:id="txtSendText" layoutX="80.0" layoutY="330.0" prefHeight="31.0" prefWidth="314.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="29.0" layoutY="332.0" text="Msg : ">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="UL" layoutX="421.0" layoutY="100.0" prefHeight="200.0" prefWidth="149.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="382.0" prefWidth="399.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ServerController">
+   <children>
+      <ImageView fitHeight="382.0" fitWidth="399.0" opacity="0.52" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@asserts/gradienta-LeG68PrXA6Y-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="msgBox" layoutX="24.0" layoutY="60.0" prefHeight="272.0" prefWidth="347.0" />
+      <Label layoutX="22.0" layoutY="29.0" text=" Server Status : ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblsStatus" layoutX="139.0" layoutY="29.0" text="...........................">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

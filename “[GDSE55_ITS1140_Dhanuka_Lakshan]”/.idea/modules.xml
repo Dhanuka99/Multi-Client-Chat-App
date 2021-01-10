@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyChat_App/Multiple_chat1/Multiple_chat1.iml" filepath="$PROJECT_DIR$/MyChat_App/Multiple_chat1/Multiple_chat1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyChat_App/Multiple_chat2/Multiple_chat2.iml" filepath="$PROJECT_DIR$/MyChat_App/Multiple_chat2/Multiple_chat2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyChat_App/Multiple_chat_Server/Multiple_chat_Server.iml" filepath="$PROJECT_DIR$/MyChat_App/Multiple_chat_Server/Multiple_chat_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dhanuka.iml" filepath="$PROJECT_DIR$/.idea/dhanuka.iml" />
+    </modules>
+  </component>
+</project>

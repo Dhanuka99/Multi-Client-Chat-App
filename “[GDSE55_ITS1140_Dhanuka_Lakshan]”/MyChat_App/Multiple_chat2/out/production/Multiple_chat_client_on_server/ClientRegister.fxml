@@ -1,0 +1,37 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import com.jfoenix.controls.JFXButton?>-->
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.control.TextField?>-->
+<!--<?import javafx.scene.image.Image?>-->
+<!--<?import javafx.scene.image.ImageView?>-->
+<!--<?import javafx.scene.layout.AnchorPane?>-->
+<!--<?import javafx.scene.text.Font?>-->
+
+<!--<AnchorPane fx:id="root" prefHeight="430.0" prefWidth="369.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientRegisterController">-->
+<!--   <children>-->
+<!--      <ImageView fitHeight="430.0" fitWidth="369.0" opacity="0.38" pickOnBounds="true">-->
+<!--         <image>-->
+<!--            <Image url="@assets/gradienta-LeG68PrXA6Y-unsplash.jpg" />-->
+<!--         </image>-->
+<!--      </ImageView>-->
+<!--      <Label layoutX="109.0" layoutY="34.0" text="Client Register">-->
+<!--         <font>-->
+<!--            <Font size="23.0" />-->
+<!--         </font></Label>-->
+<!--      <TextField fx:id="txtId" layoutX="176.0" layoutY="140.0" prefHeight="34.0" prefWidth="161.0">-->
+<!--         <font>-->
+<!--            <Font size="15.0" />-->
+<!--         </font>-->
+<!--      </TextField>-->
+<!--      <JFXButton buttonType="RAISED" layoutX="130.0" layoutY="218.0" onAction="#btnConnectOnAction" prefHeight="39.0" prefWidth="112.0" style="-fx-background-color: #F0BDDA;" text="connect">-->
+<!--         <font>-->
+<!--            <Font name="System Bold" size="18.0" />-->
+<!--         </font></JFXButton>-->
+<!--      <Label layoutX="27.0" layoutY="145.0" prefHeight="17.0" prefWidth="127.0" text="Input Your ID  : ">-->
+<!--         <font>-->
+<!--            <Font name="System Bold" size="16.0" />-->
+<!--         </font>-->
+<!--      </Label>-->
+<!--   </children>-->
+<!--</AnchorPane>-->
